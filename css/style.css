@@ -1,0 +1,145 @@
+/*
+Stylesheet für Minecraft Control Panel
+*/
+
+#wpcontent, #wpfooter {
+    margin-left: 170px;
+}
+
+div.mcpanel.wrap {
+    margin: 10px;
+    cursor: default;
+}
+
+h2.mcp {
+    padding: 5px 10px;
+    background: #999;    
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    text-shadow: 1px 1px 2px #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: -1px 4px 10px #000;
+    -moz-box-shadow: -1px 4px 10px #000;
+    -khtml-box-shadow: -1px 4px 10px #000;
+    -webkit-box-shadow: -1px 4px 10px #000;
+}
+
+div.JSONAPI {
+    width: 100%;
+    background: #fff;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: -1px 4px 10px #000;
+    -moz-box-shadow: -1px 4px 10px #000;
+    -khtml-box-shadow: -1px 4px 10px #000;
+    -webkit-box-shadow: -1px 4px 10px #000;
+}
+
+div.JSONAPI table {
+    width: 100%;    
+}
+div.JSONAPI table.header {    
+    color: #fff;
+    background: #444;
+    line-height: 5px;
+    padding: 0 5px;    
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -khtml-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+
+div.JSONAPI table.header h3 {
+    color: #fff;    
+}
+
+div.JSONAPI td.server_status {
+    text-align: right;
+}
+
+div.JSONAPI div.info_plugins {
+    line-height: 15px;
+    padding: 5px;
+    border-bottom: 1px dashed #777;
+} 
+
+div.info_plugins span {
+    display: inline-block;
+}
+
+div.info_plugins {
+    padding: 0 5px 0 5px;
+}
+
+div.chat_block {
+    background: #222;
+    margin-bottom: 5px;
+    font-size: 10px;
+    cursor: default;
+    opacity: 0.6;
+    border: 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+div.stats_block {
+    background: #222;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: default;
+    line-height: 15px;
+    opacity: 0.6;
+    border: 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+div.stats_block:hover {
+    background: #444;
+    padding: 10px;
+    line-height: 15px;
+    opacity: 0.6;
+    border: 0;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: default;
+}
+
+label#showContent {
+    color: #fff;
+    cursor: pointer;
+}
+
+label#showContent:hover {
+    color: #f00;
+    cursor: pointer;
+}
+
+div#showContent {
+    display:none;
+}
+
+#showContentBox {
+    opacity:0.01;
+}
+
+#showContentBox:checked + #showContent {
+    display:block;
+}
+
+div#showContent img {
+    padding: 0 2px;
+}
